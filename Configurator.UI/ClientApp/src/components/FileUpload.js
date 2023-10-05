@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { useDropzone } from 'react-dropzone';
+import './fileupload.css';
 
 export class FileUpload extends Component {
     constructor(props) {
@@ -122,7 +123,8 @@ export class FileUpload extends Component {
         const { loading } = this.state;
         return (
             <div className="App">
-                <h1>File Upload</h1>
+                <h1>File Upload/Drag and Drop</h1>
+                <h4>To upload files via drag and drop, drag the file into the area between "choose file" and "upload".</h4>
                 <div className="dropzone">
                     <input type="file" onChange={this.handleFileChange} />
                     <button onClick={() => this.handleFileUpload(this.state.file)}>Upload</button>
@@ -135,3 +137,4 @@ export class FileUpload extends Component {
     }
 }
 
+export default FileUpload;
