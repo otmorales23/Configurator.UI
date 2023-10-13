@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { useDropzone } from 'react-dropzone';
 import './fileupload.css';
 
 export class Download extends Component {
