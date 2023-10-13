@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
   1. Clone this repository to your local machine.
   2. Navigate to the project folder.
   3. Install the necessary dependencies for both the frontend and backend using 'npm install' and 'dotnet restore' respectively. Make sure you're in the ClientApp directory when running 'npm install' in your terminal.
-  4. Start the application by running 'dotnet watch' in your terminal. The application should then open a web browser page and run the project at http://localhost:44473
+  4. Start the application by running 'dotnet watch' in your terminal. The application should then open a web browser page and run the project at http://localhost:44403 which is an SPA proxy server.
 
 ## Usage
 To use this application follow these steps:
